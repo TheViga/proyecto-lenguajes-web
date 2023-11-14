@@ -1,0 +1,31 @@
+/* Header.css o styles para Header.jsx */
+header {
+    /* Cambia el color de fondo según tus preferencias */
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+  }
+
+  nav ul li a:hover {
+    color: black;
+  }

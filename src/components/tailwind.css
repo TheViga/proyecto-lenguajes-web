@@ -1,0 +1,133 @@
+/* tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.header-logo{
+
+    height: 700px;
+    width: 1500px;
+}
+
+.text-center{
+    text-align: center;
+}
+.font-semibold {
+    font-weight: 600;
+}
+.text-2xl {
+    font-size: 1.5rem/* 24px */;
+    line-height: 2rem/* 32px */;
+}
+.text-blue-600 {
+    --tw-text-opacity: 1;
+    color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+.bg-blue-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.px-4 {
+    padding-left: 1rem/* 16px */;
+    padding-right: 1rem/* 16px */;
+}
+.py-2 {
+    padding-top: 0.5rem/* 8px */;
+    padding-bottom: 0.5rem/* 8px */;
+}
+.rounded {
+    border-radius: 0.25rem/* 4px */;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.flex-col {
+    flex-direction: column;
+}
+.hl {
+    height: 8h/* 80px */;
+}
+.wl {
+    width: 8h;
+}
+.mr-2 {
+    margin-right: 0.5rem/* 8px */;
+}
+.mt-2 {
+    margin-top: 5rem/* 8px */;
+}
+@media (min-width: 1000px) {
+    .md\:mt-0 {
+        margin-top: 50px;
+    }
+}
+.flex {
+    display: flex;
+}
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem/* 16px */ * var(--tw-space-x-reverse));
+    margin-left: calc(1rem/* 16px */ * calc(1 - var(--tw-space-x-reverse)));
+}
+.w-8 {
+    width: 2rem/* 32px */;
+}
+.h-8 {
+    height: 2rem/* 32px */;
+}
+.mr-4 {
+    margin-right: 1rem/* 16px */;
+}
+.container {
+    width: 100%;
+}
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid {
+    display: grid;
+}
+.grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (min-width: 768px) {
+    .md\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+.gap-4 {
+    gap: 1rem/* 16px */;
+}
+.items-center {
+    align-items: center;
+}

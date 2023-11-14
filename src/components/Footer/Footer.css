@@ -1,0 +1,50 @@
+/* Footer.css o styles para Footer.jsx */
+footer {
+  background-color: #333; /* Cambia el color de fondo según tus preferencias */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-top: 2rem; /* Ajusta la separación desde el contenido superior según tus necesidades */
+}
+
+/* Opcional: Estilos para el enlace de derechos de autor */
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.icons-footer {
+  width: 25px;
+  height: 25px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilo para cada elemento de la lista */
+li {
+  display: flex;
+  align-items: center; /* Alinea verticalmente los elementos (ícono y texto) */
+  margin-top: 1rem; /* Reducido el espacio superior */
+  margin-bottom: 1rem; /* Espacio entre cada elemento de la lista */
+}
+
+/* Estilo para el ícono */
+svg {
+  height: 1rem; /* Ajusta el tamaño del ícono según tus necesidades */
+  width: 1rem;
+  margin-right: 0.5rem; /* Espacio entre el ícono y el texto */
+}
+
+/* Centra vertical y horizontalmente el contenido del footer */
+.footer-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

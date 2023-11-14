@@ -1,0 +1,55 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+  
+    /* Alineación de elementos en pantallas grandes */
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  /* Estilos para la mitad izquierda */
+  .left-half {
+    width: 50%;
+    margin-left: 550px;
+
+  }
+
+  
+  
+  /* Estilos para la mitad derecha */
+  .right-half {
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border: 2px red;
+  
+    /* Alineación a la derecha en pantallas grandes */
+    @media (min-width: 768px) {
+      margin-left: auto;
+    }
+  }
+.mapa-usco {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 90%;
+    height: 500px;
+}
+
+.text-2xl {
+    margin-left: 40px;
+    margin-top: 2rem;
+    font-size: 2.5rem; /* Ajusta el tamaño según tus preferencias */
+  }
+  
+  .text-lg {
+    font-size: 2.25rem; /* Ajusta el tamaño según tus preferencias */
+  }
+
+  .texto-2 {
+    margin-top: 20px;
+  }
+  
